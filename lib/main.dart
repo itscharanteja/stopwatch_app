@@ -21,7 +21,7 @@ class StopWatch extends StatefulWidget {
 
 class _StopWatchState extends State<StopWatch> {
   Stopwatch _stopwatch = Stopwatch();
-  Timer _timer;
+  late Timer _timer;
 
   @override
   void initState() {
